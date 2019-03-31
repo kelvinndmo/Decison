@@ -1,0 +1,18 @@
+.header {
+    background:$off-black;
+    color: white;
+    margin-bottom: $xl-size;
+    padding: 1.6rem 0;
+}
+
+//BEM naming convention
+.header__title {
+    font-size:$l-size;
+    margin: 0;
+}
+.header__subtitle {
+    color: $off-white;
+    font-size: $m-size;
+    margin:0px;
+    font-weight: 1000;
+}

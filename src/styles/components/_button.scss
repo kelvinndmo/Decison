@@ -1,0 +1,31 @@
+.big_button {
+   background: $spurple; 
+   border: none;
+   border-bottom: .5rem solid darken($color: $spurple, $amount: 10%);
+   color:white;
+   font-weight: bold;
+   font-size: $l-size;
+   margin-bottom: $l-size;
+   padding: 2.4rem;
+   width: 100%;
+}
+
+.big_button:disabled{
+    opacity: .5;
+}
+
+.button {
+     background: $spurple;
+     border: none;
+     border-bottom: 1rem  darken($spurple, 10%);
+     color: white;
+     font-weight: 500;
+     padding:$s-size;
+}
+
+//bem
+.button--link {
+    background: none;
+    border: none;
+    color:$off-white; 
+}
